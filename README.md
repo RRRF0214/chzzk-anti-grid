@@ -19,5 +19,3 @@ Here're some of the project's best features:
 <p>3. 압축해제된 확장 프로그램을 로드합니다. 열기</p>
 
 <p>4. 프로젝트 폴더 선택</p>
-
-<h2>💖Like my work?</h2>
