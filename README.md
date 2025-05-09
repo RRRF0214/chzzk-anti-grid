@@ -28,6 +28,18 @@ Here are some of the project's best features:
 
 ---
 
-## 😎 Brave Browser
+## ❌ 자주 발생하는 오류
 
-Brave Browser는 [Brave Detection Block(BDB)](https://chromewebstore.google.com/detail/brave-detection-block/ckkhcgikplgdginlidcaomgjahmddjgb)을 추가로 설치해야 합니다.
+console.error(`❌ Debugger attach 실패 (탭 ID: ${tabId}):`, chrome.runtime.lastError.message);
+- Attach 기능을 다른 확장 프로그램이 점유하고 있어 충돌 오류가 났습니다.
+- 해당 기능을 사용하는 다른 확장 프로그램을 종료하거나 제거해야 합니다.
+
+Brave Browser
+- Brave Browser는 [Brave Detection Block(BDB)](https://chromewebstore.google.com/detail/brave-detection-block/ckkhcgikplgdginlidcaomgjahmddjgb)을 추가로 설치해야 합니다.
+
+어쩔땐 되는데 어쩔때는 그리드를 설치하라는 창이 떠요
+- 본 그리드 우회 확장 프로그램보다 사이트 로딩이 더 빨라서 생기는 현상입니다.
+- F5를 하여 확장 프로그램이 먼저 실행되도록 해주세요.
+
+기타 오류들...
+- 기존에 있던 네이버 동영상 플러그인을 제거하지 않고, 비활성화 상태로 두면 해결되는 경우도 있다고 합니다.
