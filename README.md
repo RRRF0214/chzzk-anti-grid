@@ -1,32 +1,33 @@
-<h1 align="center" id="title">Chzzk-Anti-Grid</h1>
+# 🎛️ Chzzk-Anti-Grid
 
-<p id="description">User-Agent Switcher for Chzzk Anti Grid</p>
+**User-Agent Switcher for Chzzk Anti Grid**
 
-  
-  
-<h2>🧐 Features</h2>
+---
 
-Here're some of the project's best features:
+## 🧐 Features
 
-*   User-Agent Switch 방식
-*   Chrome Manifest V3
+Here are some of the project's best features:
 
-<h2>🛠️ Installation Steps:</h2>
+- User-Agent Switch 방식
+- Chrome Manifest V3
 
-<p>1. [파일 다운로드] 후 폴더에 압축해제[dl1]</p>
+---
 
-<p>2. [chrome://extensions](chrome://extensions) 접속</p>
+## 🛠️ Installation Steps
 
-<p>3. 우상단 '개발자 모드' ON</p>
+1. [파일 다운로드](https://github.com/RRRF0214/chzzk-anti-grid/archive/refs/heads/main.zip) 후 폴더에 압축해제  
+2. Chrome 주소창에 아래 경로를 복사해서 붙여넣으세요:
 
-<p>4. '압축해제된 확장 프로그램을 로드합니다.' 선택</p>
+    ```
+    chrome://extensions
+    ```
 
-<p>5. 프로젝트 폴더 선택</p>
+3. 우상단 '개발자 모드' ON  
+4. '압축해제된 확장 프로그램을 로드합니다.' 선택  
+5. 프로젝트 폴더 선택  
 
-<h2>😎 Brave Browser</h2>
+---
 
-Brave Browser는 [BDB]를 추가로 설치해야 합니다. [dl2]
+## 😎 Brave Browser
 
-
-[dl1]: <https://github.com/RRRF0214/chzzk-anti-grid/archive/refs/heads/main.zip>
-[dl2] : <https://chromewebstore.google.com/detail/brave-detection-block/ckkhcgikplgdginlidcaomgjahmddjgb>
+Brave Browser는 [Brave Detection Block(BDB)](https://chromewebstore.google.com/detail/brave-detection-block/ckkhcgikplgdginlidcaomgjahmddjgb)을 추가로 설치해야 합니다.
