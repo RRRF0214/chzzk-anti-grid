@@ -1,13 +1,12 @@
 {
   "manifest_version": 3,
   "name": "Chzzk-Anti-Grid V3",
-  "version": "1.1",
-  "description": "Chzzk-Anti-Grid (User-Agent Switch)",
+  "version": "1.0",
+  "description": "User-Agent Switch for Chzzk",
   "permissions": [
     "debugger",
-    "tabs",
-    "webNavigation",
-    "alarms"
+    "scripting",
+    "tabs"
   ],
   "host_permissions": [
     "https://chzzk.naver.com/*",
@@ -17,7 +16,7 @@
     "service_worker": "background.js"
   },
   "action": {
-    "default_title": "Change User-Agent",
+    "default_popup": "popup.html",
     "default_icon": {
       "16": "icons/icon16.png",
       "48": "icons/icon48.png",
